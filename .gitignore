@@ -1,3 +1,7 @@
 *moodmeal7
 *model
 Llama-2-7b-chat-hf-bf16-q4_k.gguf
+llama-2-7b-chat.Q4_K_M.gguf
+Llama-2-7b-chat-hf-bf16-q4_k.gguf
+llama77bgguf.py
+llamagpu.py

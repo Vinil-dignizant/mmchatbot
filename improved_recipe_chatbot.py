@@ -22,7 +22,8 @@ if not os.path.exists(MODEL_PATH):
 # Load model with GPU acceleration
 llm = Llama(
     model_path=MODEL_PATH,
-    n_gpu_layers=35,  # Adjust based on your GPU memory
+    n_gpu_layers=35
+    , # Adjust based on your GPU memory
     n_ctx=2048,
     chat_format="llama-2",
     verbose=True
